@@ -35,7 +35,7 @@ void setup() {
 
 void draw() {
 
-	if (counter==1 || counter%2500==0) {
+	if (counter%1500==0) {
 		image(flag, 0, 0, width, height);
 	}
 

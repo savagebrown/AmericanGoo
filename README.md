@@ -1,9 +1,13 @@
 <script src="processing.min.js"></script>
 <canvas datasrc="goo.pjs" width="10000" height="543">`Can't load canvas`</canvas>
 
-<h1>A digital sketch by Koray &amp; Asher Girton</h1>
+### A digital sketch
 
-<code>
+by Koray &amp; Asher Girton
+
+![screenshot](https://github.com/savagebrown/AmericanGoo/raw/master/screenshot.png)
+
+///
 
 
     -----------------------------
@@ -24,4 +28,4 @@
     Koray Girton
 
 
-</code>
+///
