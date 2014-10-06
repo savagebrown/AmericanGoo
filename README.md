@@ -1,4 +1,6 @@
-### A digital sketch
+### American Goo
+
+# a Digital Sketch
 
 by Koray &amp; Asher Girton
 
@@ -16,7 +18,7 @@ by Koray &amp; Asher Girton
     | -------------------------------
     ---------------------------------
 
-    This software is free,
+    This software is free
     like America
 
     Designed and coded by
