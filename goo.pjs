@@ -74,7 +74,7 @@ void draw() {
 void mouseReleased() {
 
 	if(mode==1) {
-		tint(255, 0.5);
+		tint(0, 1);
 		mode = 0;
 	} else {
 		noTint();
