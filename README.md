@@ -1,6 +1,6 @@
-### American Goo
+## American Goo
 
-# a Digital Sketch
+### a Digital Sketch
 
 by Koray &amp; Asher Girton
 
