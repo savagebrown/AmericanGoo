@@ -1,14 +1,14 @@
 /*
 
-    -----------------------------
-    |               -------------
-    |   American    -------------
-    |   Goo         -------------
-    |               -------------
-    | ---------------------------
-    | ---------------------------
-    | ---------------------------
-    -----------------------------
+	---------------------------------
+	|               -----------------
+	|   American    -----------------
+	|   Goo         -----------------
+	|               -----------------
+	| -------------------------------
+	| -------------------------------
+	| -------------------------------
+	---------------------------------
 
     This software is free,
     like America
@@ -27,7 +27,6 @@ void setup() {
   size(1000,543);
   goo = loadImage("Goo.jpg");
   flag = loadImage("us-flag-code.png");
-  flag_outline = loadImage("us-flag-code-trace.png");
   flag_stroke = loadImage("us-flag-code-stroke.png");
   noStroke();
   background(255);
@@ -35,20 +34,15 @@ void setup() {
 
 void draw() {
 
-	if (counter%1500==0) {
+	if (counter%2000==0) {
 		image(flag, 0, 0, width, height);
 	}
 
 	if (counter%1000==0) {
-
-		if(mode==1) {
-			image(flag_outline, 0, 0, width, height);
-		} else {
-			tint(random(0,255),random(1,255), random(0,255));
-			image(flag_stroke, 0, 0, width, height);
-			noTint();
-			mode=1;
-		}
+		tint(random(0,255),random(1,255), random(0,255));
+		image(flag_stroke, 0, 0, width, height);
+		noTint();
+		mode=1;
 
 	}
 

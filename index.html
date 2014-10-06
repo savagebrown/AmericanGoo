@@ -4,11 +4,9 @@
 <head>
 	<style>
 		canvas {
-            position: absolute;
-            top: 50%; left: 50%;
+            margin-bottom: 20px;
    			width: 1000px;
     		height: 543px;
-            margin: -270px 0 0 -500px;
     		-webkit-touch-callout: none;
        		-webkit-user-select: none;
         	-khtml-user-select: none;
@@ -19,14 +17,34 @@
         	border-radius: 3px;
             box-shadow: 0 0 2px 2px #ccc;
 		}
+        figure {
+            width: 1000px;
+            margin: 70px auto;
+            font-family: rooney-sans;
+        }
+        h1,p {
+            margin: 0;
+        }
 	</style>
+    <script src="//use.typekit.net/zha1kxp.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body style="background-color:#f2f2f2;">
 
 	<script src="processing.min.js"></script>
 
-	<canvas datasrc="goo.pjs" width="1000" height="543">Can't load canvas object</canvas>
+    <figure>
+    	<canvas datasrc="goo.pjs" width="1000" height="543">
+            Can't load canvas object
+        </canvas>
+        <figcaption>
+            <h1>American Goo</h1>
+            <p>A digital sketch by <strong>Asher &amp; Koray Girton</strong>&hellip;&amp; You</p>
+            <p><small><a href="http://www.youtube.com/watch?v=zmM6ERPRbiw">Sonic Youth's Goo Album</a>'s Cover Art by <a href="http://en.wikipedia.org/wiki/Raymond_Pettibon">Raymond Pettibon</a></small></p>
+        </figcaption>
+    </figure>
+
 
 </body>
 </html>
