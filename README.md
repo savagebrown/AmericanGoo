@@ -4,7 +4,9 @@
 
 by Koray &amp; Asher &amp; You
 
-![screenshot](https://github.com/savagebrown/AmericanGoo/raw/master/screenshot.png)
+![screenshot](https://github.com/savagebrown/AmericanGoo/raw/master/screenshot-1.png)
+
+![screenshot](https://github.com/savagebrown/AmericanGoo/raw/master/screenshot-2.png)
 
 http://losingtrack.com/AmericanGoo
 
