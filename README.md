@@ -1,12 +1,12 @@
 ## American Goo
 
-### a Digital Sketch
+### a Collaborative Digital Sketch
 
-by Koray &amp; Asher Girton
+by Koray &amp; Asher &amp; You
 
 ![screenshot](https://github.com/savagebrown/AmericanGoo/raw/master/screenshot.png)
 
-http://losingtrack.com
+http://losingtrack.com/AmericanGoo
 
     ---------------------------------
     |               -----------------
